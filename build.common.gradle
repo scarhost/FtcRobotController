@@ -113,5 +113,12 @@ android {
 }
 
 repositories {
+    maven { url 'https://jitpack.io' } // Required for FTC Dashboard & OpenCV
 }
+
+dependencies {
+    implementation 'org.openftc:easyopencv:1.5.2'  // OpenCV for Webcam
+    implementation 'com.acmerobotics.dashboard:ftc-dashboard:0.4.7' // FTC Dashboard
+}
+
 
